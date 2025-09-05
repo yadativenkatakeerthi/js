@@ -1,6 +1,8 @@
 <html>
-  <head>This is an html </head>
-  <title>here js can change html attributes</title>
-  <h2 id = "demo">this text will hide</h2>
-  <button onclick = "document.getElementById('demo').innerHTML=This is js">
+  <head></head>
+  <title> This is an html</title>
+  <body>
+    <p id = 'demo'>Here js can change html attributes</p>
+    <button onclick = "document.getElementById(demo).innerHTML = This is an js ">Click here</button>
+  </body>
 </html>
